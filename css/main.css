@@ -1,0 +1,17 @@
+body  {
+	background-color: transparent;
+}
+#menu {
+	text-align: center;
+	font-family: "myriad pro";
+	margin-top: 20px;
+	font-size: 14pt;
+}
+#menu li{
+	display: inline;
+	padding-right: 30px;
+}
+
+#menu ul{
+	margin-top: 0px 0px;
+}
