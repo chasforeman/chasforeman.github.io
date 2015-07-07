@@ -20,9 +20,9 @@ header img {
 
 @font-face {
 	font-family: "Kefa";
-	src: url("Kefa.tcc");
+	src: url(./fonts/"Kefa.tcc");
 	font-family: "Avenir";
-	src: url("Avenir Next Condensed.ttc");
+	src: url(./fonts/"Avenir Next Condensed.ttc");
 }
 
 #line {
