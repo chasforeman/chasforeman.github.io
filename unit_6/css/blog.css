@@ -19,7 +19,11 @@ header img {
 
 @font-face {
 	font-family: "Kefa";
+<<<<<<< HEAD
 	src: url(../fonts/Kefa.tcc);
+=======
+	src: url("Kefa.ttc");
+>>>>>>> origin/master
 	font-family: "Avenir";
 	src: url(../fonts/Avenir Next Condensed.ttc);
 }
