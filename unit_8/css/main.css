@@ -79,20 +79,26 @@
 	}
 
 	.header {
-	height: 5em;
+	height: 3em;
 }
 
-/*#slogan {
+hr {
+	width: 0;
+	height: 0;
+	color: rgb(255,255,255);
+}
+
+#slogan {
 	text-align: center;
 	font-family: "PT Sans", sans-serif;
-	font-size: 13pt;
-	color: rgb(239,65,54);
+	font-size: 0pt;
+	color: rgb(255,255,255);
 	padding-bottom: 0;
-	}*/
+	}
 
 	.grid li {
 	display: inline-block;
-	width: 45%;
+	width: 25%;
 	padding: .6em;
 	margin: .5em;
 	border: 1px solid rgb(239,65,54);
