@@ -114,7 +114,8 @@ hr {
 .mobile a {
 	text-decoration: none;
 	color: rgb(255,255,255);
-	padding: .8em;
+	padding: .8em 33% .8em 33%;
+	width: 100%;
 }
 
 .mobile div:hover {
@@ -123,6 +124,7 @@ hr {
 
 .mobile a:hover {
 	color: rgb(239,65,54);
+	width: 100%;
 }
 
 #foot {
