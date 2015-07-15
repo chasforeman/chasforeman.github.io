@@ -23,27 +23,33 @@
 	font-family: "PT Sans", sans-serif;
 	font-size: 13pt;
 	color: rgb(239,65,54);
-	padding-bottom: 0;
-}
+/*	padding-bottom: 0;
+*/}
 
 .grid {
 	list-style: none;
-	padding: 0;
 	text-align: center;
 }
+
 .grid li {
-	display: inline-block;
-	width: 250px;
-	padding: 20px;
-	margin: 20px;
-	border: 1px solid rgb(239,65,54);
-	font-size: 24px;
-	vertical-align: middle;
-	box-shadow: 0 0 5px rgb(120,120,120);
+/*	display: inline-block;
+*/	width: 26%;
+	padding: 1.5%;
+	margin: 1.5%;
+	border: 1px solid black;
+/*	font-size: 24px;
+*//*	vertical-align: middle;*/
+	float: left;
 }
+
+ .grid li:hover {
+	border: 1px blue;
+}
+
 .grid li img {
 	width: 100%;
-	margin left: auto;
+/*	margin: auto 0;
+*/	/*clear: both;*/
 }
 
 .mobile {
@@ -53,20 +59,35 @@
 #foot {
 	font-family: "PT Sans", sans-serif;
 	color: rgb(255,255,255);
-	font-size: 10pt;
+	font-size: 13px;
 	padding: 12px;
 	background-color: rgb(239,65,54);
-}
+	clear: both;
+	}
 
 .footer {
 	text-align: center;
 }
+
 #footerimage {
 	max-width: 70px;
 	max-height: 70px;
 	margin-top: -20px;
 }
 
+@media only screen and (max-width: 768px) {
+
+#slogan, hr {
+	display: none;
+}
+
+.header {
+	height: 6em;
+}
+
+#logo {
+	max-width: 340px;
+}
 @media only screen and (max-width: 400px) {
 
 #logo {
@@ -77,23 +98,7 @@
 	height: 4em;
 }
 
-#slogan {
-	display: none;
-}
-
-hr {
-	display: none;
-}
-
-.grid {
-	display: none;
-}
-
-.grid li {
-	display: none;
-}
-
-.grid li img{
+.grid, .grid li, .grid li img {
 	display: none;
 }
 
@@ -109,8 +114,8 @@ hr {
 	font-size: 1em;
 	font-family: "Louda", sans-serif;
 	text-align: center;
-/*	width: 100%;
-*/	letter-spacing: .09em;
+	width: 100%;
+	letter-spacing: .09em;
 }
 .mobile a {
 	text-decoration: none;
