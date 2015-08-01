@@ -125,11 +125,14 @@ a span {
     text-decoration: none;
   }
 
-  #foottext {
+#cp_widget_d4e122e0-36cb-4bb6-a9dd-4f0c543c12cc {
+    display: none;
+}
+#foottext {
   	display: none;
   }
 
-  #footerimage {
+#footerimage {
 	max-width: 10%;
 	max-height: 10%;
 	margin-top: -10px;
