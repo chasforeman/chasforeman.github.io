@@ -22,7 +22,7 @@
 	src: url("PTSans.ttc");
 }
 
-#wrapper {
+body {
   width: 800px;
   background: black;
   margin: 0 auto;
