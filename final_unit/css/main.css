@@ -53,9 +53,10 @@ a span {
   }
 
 #bar {
-    display: inline;
+    float: left;
     padding: 10px;
     background-color: rgb(59,35,20);
+    width: 100%;
 }
 
 .footer {
