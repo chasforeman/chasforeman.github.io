@@ -23,6 +23,7 @@
 }
 
 body {
+  position: absolute;
   width: 800px;
   background: black;
   margin: 0 auto;
