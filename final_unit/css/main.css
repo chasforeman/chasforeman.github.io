@@ -1,0 +1,124 @@
+#logo {
+	display: block;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	position: relative;
+}
+@font-face {
+	    font-family: "Louda";
+    src: url('../fonts/louda-regularsc-webfont.eot');
+    src: url('../fonts/louda-regularsc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/louda-regularsc-webfont.woff2') format('woff2'),
+         url('../fonts/louda-regularsc-webfont.woff') format('woff'),
+         url('../fonts/louda-regularsc-webfont.ttf') format('truetype'),
+         url('../fonts/louda-regularsc-webfont.svg#loudaregular_sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+	font-family: "PT Sans";
+	src: url("PTSans.ttc");
+}
+
+.header {
+}
+
+#slogan {
+	text-align: center;
+	font-family: "PT Sans", sans-serif;
+	font-size: 100%;
+	color: rgb(239,65,54);
+}
+
+a {
+  display: block;
+  width: 25%;
+  padding: 2%;
+  margin: 2%;
+  border: solid 1px black;
+  float: left;
+}
+
+a:hover {
+	border: solid 1px rgb(239,65,54);
+	background-color: rgb(239,65,54);
+}
+a span {
+  display: none;
+}
+
+a img {
+  width: 100%;
+  display: block;
+}
+
+#foot {
+	font-family: "PT Sans", sans-serif;
+	color: rgb(255,255,255);
+	font-size: 13px;
+	padding: 12px;
+	background-color: rgb(239,65,54);
+	clear: both;
+	}
+
+.footer {
+	text-align: center;
+}
+
+#footerimage {
+	max-width: 70px;
+	max-height: 70px;
+	margin-top: -20px;
+}
+
+@media only screen and (max-width: 950px) {
+#logo {
+ 	width: 18em;
+ }
+
+@media only screen and (max-width: 620px) {
+ 
+ .header {
+	height: 30%;
+}
+
+ #slogan, hr {
+ 	display: none;
+ }
+
+  a img {
+    display: none;
+  }
+
+  a span {
+    display: inline;
+    font-family: 'Louda';
+    letter-spacing: .2em;
+  }
+
+  a {
+    float: none;
+    text-align: center;
+    background-color: rgb(239,65,54);
+    width: auto;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(239,65,54);
+    background-color: white;
+  }
+
+  #foot {
+  	display: none;
+  }
+
+  #footerimage {
+	max-width: 10%;
+	max-height: 10%;
+	margin-top: -10px;
+}
