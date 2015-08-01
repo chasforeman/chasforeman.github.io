@@ -87,7 +87,7 @@ a span {
  	width: 18em;
  }
 .grid {
-  max-width: 100%;
+  padding: 100%;
 }
 
  body {
