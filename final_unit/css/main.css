@@ -29,35 +29,33 @@ body {
 }
 
 .grid {
-  clear: both;
-}
-
-#cp_widget_d4e122e0-36cb-4bb6-a9dd-4f0c543c12cc {
-  clear: both;
 }
 
 a {
     float: left;
     text-align: center;
     background-color: rgb(239,65,54);
-    width: 100%;
     color: white;
-    margin: auto;
     padding: 10px;
     border: none;
     text-decoration: none;
 }
 
 a:hover {
-	color: rgb(239,65,54);
+  color: rgb(239,65,54);
   background-color: white;
 }
+
 a span {
     font-family: 'Louda';
     letter-spacing: .2em;
     text-decoration: none;
+  }
 
+#cp_widget_d4e122e0-36cb-4bb6-a9dd-4f0c543c12cc {
+    clear: both;
 }
+
 
 /*a img {
   width: 100%;
