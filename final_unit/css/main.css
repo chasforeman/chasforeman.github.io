@@ -43,14 +43,20 @@ a {
 }
 
 a:hover {
-  color: rgb(239,65,54);
-  background-color: white;
+    color: rgb(239,65,54);
+    background-color: white;
 }
 
 a span {
     font-family: 'Louda';
     letter-spacing: .2em;
   }
+
+#bar {
+    display: inline;
+    padding: 10px;
+    background-color: rgb(59,35,20);
+}
 
 .footer {
   text-align: center;
