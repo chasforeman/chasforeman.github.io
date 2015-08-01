@@ -73,7 +73,7 @@ a img {
 	margin-top: -20px;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
 #logo {
  	width: 18em;
  }
