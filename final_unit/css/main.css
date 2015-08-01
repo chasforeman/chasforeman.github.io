@@ -64,19 +64,18 @@ a span {
   display: block;*/
 }
 
+.footer {
+  text-align: center;
+  clear: both;
+}
+
 #foottext {
 	font-family: "PT Sans", sans-serif;
 	color: rgb(255,255,255);
 	font-size: 13px;
 	padding: 12px;
 	background-color: rgb(239,65,54);
-	clear: both;
 	}
-
-.footer {
-	text-align: center;
-  clear: both;
-}
 
 #footerimage {
 	max-width: 70px;
