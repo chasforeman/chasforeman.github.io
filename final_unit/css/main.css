@@ -64,7 +64,7 @@ a span {
   display: block;*/
 }
 
-#foot {
+#foottext {
 	font-family: "PT Sans", sans-serif;
 	color: rgb(255,255,255);
 	font-size: 13px;
@@ -75,6 +75,7 @@ a span {
 
 .footer {
 	text-align: center;
+  clear: both;
 }
 
 #footerimage {
@@ -119,12 +120,7 @@ a span {
     text-decoration: none;
   }
 
-  a:hover {
-    color: rgb(239,65,54);
-    background-color: white;
-  }
-
-  #foot {
+  #foottext {
   	display: none;
   }
 
