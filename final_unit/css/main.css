@@ -33,6 +33,9 @@
 	font-family: "PT Sans", sans-serif;
 	font-size: 100%;
 	color: rgb(239,65,54);*/
+.grid {
+  clear: both;
+}
 
 a {
   display: block;
