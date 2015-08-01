@@ -40,10 +40,10 @@ a {
     float: left;
     text-align: center;
     background-color: rgb(239,65,54);
-    width: auto;
+    width: 100%;
     color: white;
     margin: auto;
-    padding: 5%;
+    padding: 10px;
     border: none;
     text-decoration: none;
 }
