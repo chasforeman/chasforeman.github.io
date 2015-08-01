@@ -38,9 +38,9 @@ body {
 
 a {
   display: block;
-  width: 96%;
+  width: 100%;
   padding: 2%;
-  margin: 2%;
+  margin: 0%;
   border: solid 1px black;
   float: left;
 }
@@ -51,6 +51,8 @@ a:hover {
 }
 a span {
   color: rgb(239,65,54);
+  text-decoration: none;
+  text-align: center;
 }
 
 /*a img {
