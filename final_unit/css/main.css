@@ -70,7 +70,7 @@ a span {
 	max-width: 70px;
 	max-height: 70px;
 	margin-top: 30px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 @media only screen and (max-width: 800px) {
