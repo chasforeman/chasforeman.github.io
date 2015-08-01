@@ -101,8 +101,9 @@ max-width: 100%;
 
 #logo {
   width: 18em;
+  margin-bottom: 0;
  }
- 
+
   a img {
     display: none;
   }
