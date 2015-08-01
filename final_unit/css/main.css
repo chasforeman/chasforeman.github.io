@@ -77,14 +77,12 @@ a span {
 #logo {
  	width: 18em;
  }
+
 .grid {
 }
 
  body {
-
-/*  position: absolute;
-*/max-width: 100%;
-  margin: auto;
+max-width: 100%;
 }
 
 @media only screen and (max-width: 620px) {
@@ -92,10 +90,6 @@ a span {
 .header {
 	height: 30%;
 }
-
- #slogan, hr {
- 	display: none;
- }
 
   a img {
     display: none;
