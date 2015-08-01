@@ -37,7 +37,7 @@ body {
 }
 
 a {
-    float: none;
+    float: left;
     text-align: center;
     background-color: rgb(239,65,54);
     width: auto;
@@ -55,6 +55,8 @@ a span {
     display: inline;
     font-family: 'Louda';
     letter-spacing: .2em;
+    text-decoration: none;
+
 }
 
 /*a img {
