@@ -33,6 +33,7 @@ body {
 
 a {
     float: left;
+    display: block;
     text-align: center;
     background-color: rgb(239,65,54);
     color: white;
@@ -50,16 +51,6 @@ a span {
     font-family: 'Louda';
     letter-spacing: .2em;
   }
-
-#cp_widget_d4e122e0-36cb-4bb6-a9dd-4f0c543c12cc {
-    clear: both;
-}
-
-
-/*a img {
-  width: 100%;
-  display: block;*/
-}
 
 .footer {
   text-align: center;
