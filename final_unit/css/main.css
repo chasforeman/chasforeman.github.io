@@ -86,8 +86,12 @@ a span {
 #logo {
  	width: 18em;
  }
+.grid {
+  max-width: 100%;
+}
 
  body {
+}
 /*  position: absolute;
 */max-width: 100%;
   margin: auto;
