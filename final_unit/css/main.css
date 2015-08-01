@@ -49,8 +49,8 @@ a {
 }
 
 a:hover {
-	border: solid 1px rgb(239,65,54);
-	background-color: rgb(239,65,54);
+	color: rgb(239,65,54);
+  background-color: white;
 }
 a span {
     font-family: 'Louda';
