@@ -1,0 +1,209 @@
+#logo {
+  display: block;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+@font-face {
+      font-family: "Louda";
+    src: url('../fonts/louda-regularsc-webfont.eot');
+    src: url('../fonts/louda-regularsc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/louda-regularsc-webfont.woff2') format('woff2'),
+         url('../fonts/louda-regularsc-webfont.woff') format('woff'),
+         url('../fonts/louda-regularsc-webfont.ttf') format('truetype'),
+         url('../fonts/louda-regularsc-webfont.svg#loudaregular_sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  font-family: "PT Sans";
+  src: url("PTSans.ttc");
+}
+
+body {
+  width: 800px;
+  margin: auto;
+}
+
+ #mobile {
+        display: none;
+      }
+
+ nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgb(239,65,54);
+    color: white;
+    padding: 0px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    padding: .7em;
+}
+
+a:hover {
+    color: rgb(239,65,54);
+    background-color: white;
+}
+
+nav a span {
+    font-family: 'Louda';
+    letter-spacing: .2em;
+  }
+
+#bar {
+    padding: 21px;
+    background-color: rgb(59,35,20);
+}
+
+.gallery {
+    text-align: center;
+}
+
+.photos {
+    float: left;
+    padding: 10px;
+    width: 240px;
+    /*width: 30.8%;*/
+}
+
+.photos img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 13pt;
+  font-family: "Louda";
+  color: rgb(239,65,54);
+  letter-spacing: .15em;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.photos p {
+  margin-top: -15px;
+  width: 100%;
+  margin-top: -15px;
+  text-align: center;
+  font-family: "PT Sans";
+}
+
+
+.footer {
+  text-align: center;
+  clear: both;
+}
+
+#foottext {
+  clear: both;
+  font-family: "PT Sans", sans-serif;
+  color: rgb(255,255,255);
+  font-size: 13px;
+  padding: 13px;
+  margin: auto 0;
+  background-color: rgb(59,35,20);
+  }
+
+#footerimage {
+  max-width: 70px;
+  max-height: 70px;
+  margin-top: 7px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+
+    body {
+      max-width: 100%;
+    }
+
+
+@media only screen and (max-width: 780px) {
+
+h3 {
+  font-size: .8em;
+  margin-bottom: 15px;
+}
+
+.photos p {
+ font-size: .8em;
+}
+
+.photos {
+    float: left;
+    padding: 10px;
+    width: 30%;
+  }
+
+@media only screen and (max-width: 620px) {
+ 
+      .header {
+         height: 30%;
+      }
+
+         #mobile {
+        float:none;
+        display: block;
+        font-size: 2em;
+        padding: 0px;
+        width: 100%;
+      }
+
+.photos {
+    padding: 0px;
+    width: 100%;
+  }
+
+      nav a {
+        display: none;
+      }
+
+     nav:hover a {
+      display: block;
+      float:none;
+      width: 100%;
+
+      }
+
+      #logo {
+          width: 18em;
+          margin-bottom: 0;
+       }
+
+       #bar {
+          display: none;
+       }
+
+        a span {
+          display: inline;
+          font-family: 'Louda';
+          letter-spacing: .2em;
+        }
+
+        a {
+          float: none;
+          text-align: center;
+          background-color: rgb(239,65,54);
+          width: auto;
+          color: white;
+          margin: 10px 0;
+          border: none;
+          text-decoration: none;
+        }
+
+      #foottext {
+          display: none;
+        }
+
+      #footerimage {
+        max-width: 10%;
+        max-height: 10%;
+        margin-top: -10px;
+      }

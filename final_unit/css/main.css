@@ -27,7 +27,7 @@ body {
   margin: auto;
 }
 
-a {
+#innernav a {
     float: left;
     display: block;
     text-align: center;
@@ -38,7 +38,7 @@ a {
     margin: 0;
 }
 
-a:hover {
+#innernav a:hover {
     color: rgb(239,65,54);
     background-color: white;
 }
