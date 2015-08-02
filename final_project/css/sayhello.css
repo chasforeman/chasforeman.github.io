@@ -34,10 +34,8 @@ body {
     text-align: center;
     background-color: rgb(239,65,54);
     color: white;
-    padding: 0px;
     margin: 0;
     color: white;
-    display: block;
     text-decoration: none;
     padding: .7em;
 
@@ -169,7 +167,7 @@ label {
 
       #logo {
           width: 18em;
-          margin-bottom: 0;
+          margin-bottom: 20px;
        }
 
        #bar {
