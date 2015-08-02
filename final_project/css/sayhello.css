@@ -17,10 +17,7 @@
          url('../fonts/louda-regularsc-webfont.svg#loudaregular_sc') format('svg');
     font-weight: normal;
     font-style: normal;
-
-  font-family: "PT Sans";
-  src: url("PTSans.ttc");
-}
+  }
 
 body {
   width: 800px;
@@ -28,7 +25,7 @@ body {
 }
 
  #mobile {
-        display: none;
+    display: none;
       }
 
  nav a {
@@ -52,12 +49,12 @@ a:hover {
 }
 
 nav a span {
-    font-family: 'Louda';
+    font-family: "Louda";
     letter-spacing: .2em;
   }
 
 #bar {
-    padding: 21px;
+    padding: 20px;
     background-color: rgb(59,35,20);
 }
 
@@ -69,7 +66,7 @@ nav a span {
 #contact-area input, #contact-area textarea {
   padding: 5px;
   width: 80%;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   margin: 20px 20px 20px 0px;
   border: 2px solid #ccc;
@@ -99,7 +96,7 @@ label {
   padding-top: 25px;
   padding-right: 10px;
   font-size: 1.2em;
-  font-family: "PT Sans";
+  font-family: 'PT Sans';
 }
 
 .footer {
@@ -108,7 +105,7 @@ label {
 }
 
 #foottext {
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: rgb(255,255,255);
   font-size: 13px;
   padding: 13px;
@@ -127,22 +124,21 @@ label {
 
 @media only screen and (max-width: 800px) {
 
-    body {
-      max-width: 100%;
+      body {
+        max-width: 100%;
     }
 
-    #contact-area input, #contact-area textarea {
+      #contact-area input, #contact-area textarea {
         width: 75%;
-/*        font-size: .9em;
-*/        margin: .9em;
-margin-left: -5px;
+        margin: .9em;
+        margin-left: -5px;
       }
 
     #contact-area input.submit-button {
-       margin-right: 70px;
+        margin-right: 70px;
       }
 
-    label {
+      label {
         padding-top: 20px;
         padding-left: 10px;      
       }
@@ -153,7 +149,7 @@ margin-left: -5px;
          height: 30%;
       }
 
-         #mobile {
+      #mobile {
         float:none;
         display: block;
         font-size: 2em;
@@ -165,11 +161,10 @@ margin-left: -5px;
         display: none;
       }
 
-     nav:hover a {
-      display: block;
-      float:none;
-      width: 100%;
-
+      nav:hover a {
+        display: block;
+        float:none;
+        width: 100%;
       }
 
       #logo {
@@ -182,36 +177,37 @@ margin-left: -5px;
        }
 
         #contact-area input, #contact-area textarea {
-        width: 65%;
+           width: 65%;
         }
 
          #contact-area input.submit-button {
-          width: 100%;
-          margin: auto 0;
+           width: 100%;
+           margin: auto 0;
         }
 
         a span {
-          display: inline;
-          font-family: 'Louda';
-          letter-spacing: .2em;
+            display: inline;
+            font-family: "Louda";
+            letter-spacing: .2em;
         }
 
         a {
-          float: none;
-          text-align: center;
-          background-color: rgb(239,65,54);
-          width: auto;
-          color: white;
-          margin: 10px 0;
-          border: none;
-          text-decoration: none;
+            float: none;
+            text-align: center;
+            background-color: rgb(239,65,54);
+            width: auto;
+            color: white;
+            margin: 10px 0;
+            border: none;
+            text-decoration: none;
         }
 
       #cp_widget_919973d2-20f4-4e61-b42c-941a4c40345f{
-          display: none;
+            display: none;
       }
+
       #foottext {
-          display: none;
+            display: none;
         }
 
       #footerimage {
@@ -223,5 +219,5 @@ margin-left: -5px;
   @media only screen and (max-width: 450px) {
 
       #contact-area input, #contact-area textarea {
-        width: 60%;
+        width: 50%;
         }
